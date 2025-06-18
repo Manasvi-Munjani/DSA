@@ -6,9 +6,10 @@ int main(){
     cout<<"Please Enter charecter =";
     cin>>ch;
 
-    if(ch >= 'a'&& ch <='z'){
+    // if(ch >= 'a'&& ch <='z'){
+    if(ch >= 65 && ch <=90){
         cout<<"Carecter is Lower"; 
-    }else{
+    }else{  
         cout<<"Upper Charecter";
     }
     return 0;
