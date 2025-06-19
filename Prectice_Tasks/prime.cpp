@@ -8,7 +8,8 @@ int main(){
     cout<<"Enter no = ";
     cin>>no;
 
-    for(i=2;i<no/2;i++){
+    // for(i=2;i<no/2;i++){ OR
+        for(i=2;i<no-2;i++){
         if(no%i==0){
           count++;
           break;
