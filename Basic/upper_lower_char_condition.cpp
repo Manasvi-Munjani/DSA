@@ -8,9 +8,9 @@ int main(){
 
     // if(ch >= 'a'&& ch <='z'){
     if(ch >= 65 && ch <=90){
-        cout<<"Carecter is Lower"; 
+        cout<<"Carecter is Upper"; 
     }else{  
-        cout<<"Upper Charecter";
+        cout<<"Lower Charecter";
     }
     return 0;
 }
